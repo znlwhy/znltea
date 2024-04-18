@@ -1,7 +1,7 @@
 {
   "name": "znltea",
-  "version": "0.1.0",
-  "private": true,
+  "version": "0.4.1",
+  "private": false,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -11,7 +11,15 @@
   "dependencies": {
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.2.2"
+    "next": "14.2.2",
+    "electron-settings": "^4.0.2",
+    "node-downloader-helper": "^2.1.3",
+    "kolbytea": "^1.2.5",
+    "marshalltea": "^1.2.6",
+    "alkinditea": "^1.1.7",
+    "testnetteaprotocol": "^1.2.6",
+    "pinkmantea": "1.1.8",
+    "teanatyeu": "^1.2.7"
   },
   "devDependencies": {
     "typescript": "^5",
@@ -22,5 +30,17 @@
     "tailwindcss": "^3.4.1",
     "eslint": "^8",
     "eslint-config-next": "14.2.2"
-  }
+  },
+  "description": "This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/znlwhy/znltea.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/znlwhy/znltea/issues"
+  },
+  "homepage": "https://github.com/znlwhy/znltea#readme"
 }
